@@ -80,7 +80,7 @@ class Login extends Component {
     handleClick(event){
         const { history } = this.props;
 
-        const apiBaseUrl = "http://localhost:8001/api/";
+        const apiBaseUrl = "http://18.219.238.140:8001/api/";
 
         const loginUrl = 'v1/auths/login'
 
