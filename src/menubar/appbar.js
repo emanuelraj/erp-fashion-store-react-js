@@ -72,7 +72,7 @@ class PermanentDrawer extends React.Component {
                 >
                     <Toolbar>
                     <Typography variant="title" color="inherit" noWrap>
-                        Fashion Store
+                        Mahila Women's Fashion
                     </Typography>
                     </Toolbar>
                 </AppBar>

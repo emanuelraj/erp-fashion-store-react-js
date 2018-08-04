@@ -80,9 +80,10 @@ class Login extends Component {
     handleClick(event){
         const { history } = this.props;
 
-        const apiBaseUrl = "http://18.219.238.140:8001/api/";
+        //const apiBaseUrl = "http://18.219.238.140:8001/api/v1/";
+        const apiBaseUrl = "http://localhost:8001/api/v1/";
 
-        const loginUrl = 'v1/auths/login'
+        const loginUrl = 'auths/login'
 
         let payload={
             "email_id":this.state.username,
