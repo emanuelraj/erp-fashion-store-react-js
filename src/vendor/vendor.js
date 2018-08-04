@@ -5,6 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Nav from '../menubar/nav'; 
 
+
 const drawerWidth = 240;
 
 const styles = theme => ({
@@ -41,19 +42,18 @@ const styles = theme => ({
 });
 
 
-class Home extends Component {
+class Vendor extends Component {
    render() {
      const { classes } = this.props;
 
       return (
-
         <div className={classes.root}>
             <div className={classes.appFrame}>
             <AppBar/>
             <Nav />
             <main className={classes.content}>
                 <div className={classes.toolbar} />
-                <Typography>{'Home'}</Typography>
+                <Typography>{'Vendor'}</Typography>
             </main>
             </div>
         </div>
@@ -63,8 +63,8 @@ class Home extends Component {
 
 //export default Home;
 
-Home.propTypes = {
+Vendor.propTypes = {
     classes: PropTypes.object.isRequired,
   };
   
-export default withStyles(styles)(Home);
+export default withStyles(styles)(Vendor);
