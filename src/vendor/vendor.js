@@ -49,7 +49,7 @@ const styles = theme => ({
   },
 });
 
-const apiBaseUrl = "http://localhost:8001/api/v1/";
+const apiBaseUrl = "http://18.219.238.140:8001/api/v1/";
 
 const vendorsUrl = 'vendors';
 
