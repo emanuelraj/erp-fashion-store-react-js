@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import Login from './login/login';
 import Home from './home/home';
 import Vendor from './vendor/vendor';
+import AddVendor from './vendor/add-vendor'
 import ProductCatlog from './product-catlog/product-catlog';
 import './App.css';
 
@@ -28,6 +29,8 @@ class App extends Component {
                <Route exact path='/home' component={Home} />
                <Route exact path='/' component={Login} />
                <Route exact path='/vendor' component={Vendor} />
+               <Route exact path='/add-vendor' component={AddVendor} />
+               <Route exact path='/add-vendor/:id' component={AddVendor} />
                <Route exact path='/product-catlog' component={ProductCatlog} />
             </Switch>
          </div>
